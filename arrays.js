@@ -1,6 +1,6 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-function addElementToBeginningOfArray(chocolateBars, candytring) {
+function addElementToBeginningOfArray(chocolateBars, candyString) {
   return [candyString, ...chocolateBars];
 }
 
@@ -27,3 +27,4 @@ function destructivelyAddElementToBeginningOfArray(foo, 1) {
   arr.unshift(foo)
   return arr
 }
+S
